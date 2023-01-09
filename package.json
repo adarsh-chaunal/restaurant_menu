@@ -1,5 +1,5 @@
 {
-  "homepage": "https://adarsh-chaunal.github.io/my-app",
+  "homepage": "https://adarsh-chaunal.github.io/restaurant_menu",
   "name": "restaurant_menu",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
